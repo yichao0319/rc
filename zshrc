@@ -1,3 +1,72 @@
+###
+# added by yichao
+
+## system PATH for UT CS machines
+if [ -f /lusr/lib/misc/path.sh ]; then
+  . /lusr/lib/misc/path.sh
+fi
+
+## other UT CS commands
+UNAME_ALL=`uname -a`
+if echo $UNAME_ALL | grep "Ubuntu" > /dev/null
+then
+  export PATH=$HOME/bin/:$PATH 
+  
+  ## UT CS condor
+  export PATH=/lusr/condor/bin:$PATH 
+
+  ## UT CS CPLEX license
+  export ILOG_LICENSE_FILE=/v/filer4b/v27q001/ut-wireless/cplex/ilm/access.ilm
+  export PATH=/v/filer4b/v27q001/ut-wireless/cplex/cplex110/bin/x86_rhel4.0_3.4:/v/filer4b/v27q001/ut-wireless/cplex/ilm:$PATH 
+
+  ## UT CS Qualnet
+  export QUALNET_HOME=/u/yichao/multihop-mimo/multihop-mimo/task01/qualnet
+
+  ## UT CS cvsroot
+  export CVSROOT=/u/yichao/cvsroot
+
+  ## my tools
+  export IPERF_HOME=$HOME/bin/iperf
+  export PATH=$IPERF_HOME/bin:$PATH
+fi
+
+
+## servers
+alias ssh64astral='ssh astral-badger.cs.utexas.edu'
+alias ssh64boba='ssh boba-fettucini.cs.utexas.edu'
+alias ssh64clock='ssh clockwork-grapefruit.cs.utexas.edu'
+alias ssh64disco='ssh disco-bandit.cs.utexas.edu'
+alias ssh64emo='ssh emo-squid.cs.utexas.edu'
+alias ssh64goth='ssh goth-giant.cs.utexas.edu'
+alias ssh64hovering='ssh hovering-sombrero.cs.utexas.edu'
+alias ssh64lust='ssh lust.cs.utexas.edu'
+alias ssh64minolta='ssh minolta.cs.utexas.edu'
+alias ssh64nikon='ssh nikon.cs.utexas.edu'
+alias ssh64skeletal='ssh skeletal-sommelier.cs.utexas.edu'
+alias ssh64olympic='ssh olympic.csres'
+alias ssh64undead='ssh undead-elbow-macaroni.cs.utexas.edu'
+alias ssh64ver='ssh vermincelli.cs.utexas.edu'
+alias ssh64were='ssh weretaco.cs.utexas.edu'
+
+alias ssh32charity='ssh charity.cs.utexas.edu'
+alias ssh32flintoff='ssh flintoff.cs.utexas.edu'
+alias ssh32totenberg='ssh totenberg.cs.utexas.edu'
+
+alias sshvalley='ssh valleyview.cs.utexas.edu'
+alias sshzion='ssh zion.cs.utexas.edu'
+alias sshmaui='ssh maui.cs.utexas.edu'
+
+alias sshatt='ssh guard.research.att.com'
+alias sshfemto='ssh 128.83.158.108'
+alias sshec2='ssh -i $HOME/license/ec2.trackingagent/TrackingAgent.pem ec2-user@ec2-72-44-45-130.compute-1.amazonaws.com'
+
+## other setup
+alias matlab='matlab -nodisplay -nodesktop'
+
+
+###
+# from vgod's github
+
 export EDITOR=vim
 export LANG=en_US.UTF-8
 
@@ -310,4 +379,5 @@ fi
 
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # This loads RVM into a shell session.
+
 

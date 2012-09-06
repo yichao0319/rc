@@ -48,7 +48,7 @@ alias ssh64undead='ssh undead-elbow-macaroni.cs.utexas.edu'
 alias ssh64ver='ssh vermincelli.cs.utexas.edu'
 alias ssh64were='ssh weretaco.cs.utexas.edu'
 
-alias ssh32charity='ssh charity.cs.utexas.edu'
+alias ssh32chastity='ssh chastity.cs.utexas.edu'
 alias ssh32diligence='ssh diligence.cs.utexas.edu'
 alias ssh32flintoff='ssh flintoff.cs.utexas.edu'
 alias ssh32totenberg='ssh totenberg.cs.utexas.edu'

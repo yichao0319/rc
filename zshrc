@@ -51,6 +51,8 @@ alias ssh64were='ssh weretaco.cs.utexas.edu'
 alias ssh32chastity='ssh chastity.cs.utexas.edu'
 alias ssh32diligence='ssh diligence.cs.utexas.edu'
 alias ssh32flintoff='ssh flintoff.cs.utexas.edu'
+alias ssh32patience='ssh patience.cs.utexas.edu'
+
 alias ssh32totenberg='ssh totenberg.cs.utexas.edu'
 
 alias sshvalley='ssh valleyview.cs.utexas.edu'

@@ -180,6 +180,7 @@ alias ll='ls -l'
 alias grep='grep --color=auto'
 alias kk='kinit && aklog'
 alias cpwd='pwd | pbcopy'
+alias gitls='git ls-files'
 
 # global alias
 alias '..'='cd ..'

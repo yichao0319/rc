@@ -27,7 +27,10 @@ then
 
   ## my tools
   export IPERF_HOME=$HOME/bin/iperf
-  export PATH=$IPERF_HOME/bin:$PATH
+  export SUBLIME_HOE=$HOME/bin/SublimeText2
+  export PATH=$IPERF_HOME/bin:$SUBLIME_HOE:$PATH
+
+
 fi
 
 
@@ -67,6 +70,10 @@ alias sshatt='ssh guard.research.att.com'
 alias sshfemto='ssh 128.83.158.108'
 alias sshec2='ssh -i $HOME/license/ec2.trackingagent/TrackingAgent.pem ec2-user@ec2-72-44-45-130.compute-1.amazonaws.com'
 
+alias sshgnuradio1='ssh lili@128.83.158.163'
+alias sshgnuradio2='ssh xiaofan@128.83.158.112'
+
+alias sshmesh41='ssh 128.83.158.221'
 ## other setup
 alias matlab='matlab -nodisplay -nodesktop'
 
@@ -180,7 +187,7 @@ zstyle ':completion:*:messages' format $'\e[01;35m -- %d --\e[0m'
 zstyle ':completion:*:warnings' format $'\e[01;31m -- No Matches Found --\e[0m'
 
 alias dv='dirs -v'
-alias ll='ls -l'
+alias ll='ls -alh'
 alias grep='grep --color=auto'
 alias kk='kinit && aklog'
 alias cpwd='pwd | pbcopy'
@@ -401,3 +408,5 @@ fi
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # This loads RVM into a shell session.
 
 
+
+SA_LTE_PATH=/v/filer4b/v27q002/ut-wireless/yichao/SA/LTE;export SA_LTE_PATH; # ADDED BY INSTALLER - DO NOT EDIT OR DELETE THIS COMMENT - 4B5DD3DD-6BFD-8E04-0A89-FC887FEC754B 03AE7AE1-EACC-9EA4-80AE-0116E34F544A

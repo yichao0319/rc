@@ -31,6 +31,10 @@ then
 fi
 
 
+## Android SDK
+export PATH=$PATH:/Users/yichao/SDK/android-sdk-macosx/tools:/Users/yichao/SDK/android-sdk-macosx/platform-tools
+
+
 ## servers
 alias ssh64astral='ssh astral-badger.cs.utexas.edu'
 alias ssh64boba='ssh boba-fettucini.cs.utexas.edu'

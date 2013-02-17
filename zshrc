@@ -70,10 +70,7 @@ alias sshatt='ssh guard.research.att.com'
 alias sshfemto='ssh 128.83.158.108'
 alias sshec2='ssh -i $HOME/license/ec2.trackingagent/TrackingAgent.pem ec2-user@ec2-72-44-45-130.compute-1.amazonaws.com'
 
-alias sshgnuradio1='ssh lili@128.83.158.163'
-alias sshgnuradio2='ssh xiaofan@128.83.158.112'
-
-alias sshmesh41='ssh 128.83.158.221'
+alias sshmesh41='ssh ut-mesh-d-41.csres.utexas.edu'
 ## other setup
 alias matlab='matlab -nodisplay -nodesktop'
 

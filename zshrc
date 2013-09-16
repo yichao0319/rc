@@ -69,6 +69,11 @@ alias sshmaui='ssh maui.cs.utexas.edu'
 alias sshatt='ssh guard.research.att.com'
 alias sshfemto='ssh 128.83.158.108'
 alias sshec2='ssh -i $HOME/license/ec2.trackingagent/TrackingAgent.pem ec2-user@ec2-72-44-45-130.compute-1.amazonaws.com'
+#alias sshnarus='ssh ychen@192.168.100.100'
+#alias sshnarus0='ssh ychen@172.31.7.160'
+#alias sshnarus2='ssh ychen@172.31.7.162'
+alias sshnarustunnel='ssh -L 9001:rainier.csres.utexas.edu:9001 yichao@zion.cs.utexas.edu'
+alias sshnarus='ssh -p 9001 ychen@locahost'
 
 alias sshmesh41='ssh ut-mesh-d-41.csres.utexas.edu'
 ## other setup

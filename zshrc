@@ -27,7 +27,7 @@ then
 
   ## my tools
   export IPERF_HOME=$HOME/bin/iperf
-  export SUBLIME_HOE=$HOME/bin/SublimeText2
+  export SUBLIME_HOE=$HOME/bin/sublime_text_3
   export PATH=$IPERF_HOME/bin:$SUBLIME_HOE:$PATH
 
 

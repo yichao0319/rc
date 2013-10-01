@@ -73,7 +73,7 @@ alias sshec2='ssh -i $HOME/license/ec2.trackingagent/TrackingAgent.pem ec2-user@
 #alias sshnarus0='ssh ychen@172.31.7.160'
 #alias sshnarus2='ssh ychen@172.31.7.162'
 alias sshnarustunnel='ssh -L 9001:rainier.csres.utexas.edu:9001 yichao@zion.cs.utexas.edu'
-alias sshnarus='ssh -p 9001 ychen@locahost'
+alias sshnarus='ssh -p 9001 ychen@localhost'
 
 alias sshmesh41='ssh ut-mesh-d-41.csres.utexas.edu'
 ## other setup

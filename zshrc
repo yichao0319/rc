@@ -65,6 +65,14 @@ alias sshec2='ssh -i $HOME/license/ec2.trackingagent/TrackingAgent.pem ec2-user@
 
 ## other setup
 alias matlab='matlab -nodisplay -nodesktop'
+alias df='df -h'
+alias du='du -sh'
+
+## git
+git config --global color.ui true
+git config --global alias.st status
+git config --global user.name "yichao0319"
+git config --global user.email "yichao0319@gmail.com"
 
 
 ###
@@ -176,7 +184,7 @@ zstyle ':completion:*:messages' format $'\e[01;35m -- %d --\e[0m'
 zstyle ':completion:*:warnings' format $'\e[01;31m -- No Matches Found --\e[0m'
 
 alias dv='dirs -v'
-alias ll='ls -l'
+alias ll='ls -alh'
 alias grep='grep --color=auto'
 alias kk='kinit && aklog'
 alias cpwd='pwd | pbcopy'

@@ -27,8 +27,15 @@ then
 
   ## my tools
   export IPERF_HOME=$HOME/bin/iperf
-  export PATH=$IPERF_HOME/bin:$PATH
+  export SUBLIME_HOE=$HOME/bin/sublime_text_3
+  export PATH=$IPERF_HOME/bin:$SUBLIME_HOE:$PATH
+
+
 fi
+
+
+## Android SDK
+export PATH=$PATH:/Users/yichao/SDK/android-sdk-macosx/tools:/Users/yichao/SDK/android-sdk-macosx/platform-tools
 
 
 ## servers
@@ -62,7 +69,13 @@ alias sshmaui='ssh maui.cs.utexas.edu'
 alias sshatt='ssh guard.research.att.com'
 alias sshfemto='ssh 128.83.158.108'
 alias sshec2='ssh -i $HOME/license/ec2.trackingagent/TrackingAgent.pem ec2-user@ec2-72-44-45-130.compute-1.amazonaws.com'
+#alias sshnarus='ssh ychen@192.168.100.100'
+#alias sshnarus0='ssh ychen@172.31.7.160'
+#alias sshnarus2='ssh ychen@172.31.7.162'
+alias sshnarustunnel='ssh -L 9001:rainier.csres.utexas.edu:9001 yichao@zion.cs.utexas.edu'
+alias sshnarus='ssh -p 9001 ychen@localhost'
 
+alias sshmesh41='ssh ut-mesh-d-41.csres.utexas.edu'
 ## other setup
 alias matlab='matlab -nodisplay -nodesktop'
 alias df='df -h'
@@ -405,3 +418,5 @@ fi
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # This loads RVM into a shell session.
 
 
+
+SA_LTE_PATH=/v/filer4b/v27q002/ut-wireless/yichao/SA/LTE;export SA_LTE_PATH; # ADDED BY INSTALLER - DO NOT EDIT OR DELETE THIS COMMENT - 4B5DD3DD-6BFD-8E04-0A89-FC887FEC754B 03AE7AE1-EACC-9EA4-80AE-0116E34F544A

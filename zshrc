@@ -66,6 +66,9 @@ alias sshvalley='ssh valleyview.cs.utexas.edu'
 alias sshzion='ssh zion.cs.utexas.edu'
 alias sshmaui='ssh maui.cs.utexas.edu'
 
+alias sshroadkill='ssh roadkill.cs.utexas.edu'
+alias sshstreetpizza='ssh streetpizza.cs.utexas.edu'
+
 alias sshatt='ssh guard.research.att.com'
 alias sshfemto='ssh 128.83.158.108'
 alias sshec2='ssh -i $HOME/license/ec2.trackingagent/TrackingAgent.pem ec2-user@ec2-72-44-45-130.compute-1.amazonaws.com'
@@ -80,6 +83,7 @@ alias sshmesh41='ssh ut-mesh-d-41.csres.utexas.edu'
 alias matlab='matlab -nodisplay -nodesktop'
 alias df='df -h'
 alias du='du -sh'
+alias cq='condor_q -global yichao'
 
 ## git
 git config --global color.ui true

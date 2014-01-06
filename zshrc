@@ -59,10 +59,10 @@ alias ssh32chastity='ssh chastity.cs.utexas.edu'
 alias ssh32diligence='ssh diligence.cs.utexas.edu'
 alias ssh32flintoff='ssh flintoff.cs.utexas.edu'
 alias ssh32patience='ssh patience.cs.utexas.edu'
-
 alias ssh32totenberg='ssh totenberg.cs.utexas.edu'
 
-alias sshvalley='ssh valleyview.cs.utexas.edu'
+alias sshuvanimor4='ssh uvanimor-4.cs.utexas.edu'
+
 alias sshzion='ssh zion.cs.utexas.edu'
 alias sshmaui='ssh maui.cs.utexas.edu'
 

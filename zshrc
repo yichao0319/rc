@@ -81,9 +81,12 @@ alias sshnarus='ssh -p 9001 ychen@localhost'
 alias sshmesh41='ssh ut-mesh-d-41.csres.utexas.edu'
 ## other setup
 alias matlab='matlab -nodisplay -nodesktop'
+alias hmatlab='/v/filer4b/v27q001/ut-wireless/Han/matlabR2008a/bin/matlab'
+
 alias df='df -h'
 alias du='du -sh'
 alias cq='condor_q -global yichao'
+alias sr='screen -r'
 
 ## git
 git config --global color.ui true

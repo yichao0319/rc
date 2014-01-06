@@ -87,6 +87,7 @@ alias df='df -h'
 alias du='du -sh'
 alias cq='condor_q -global yichao'
 alias sr='screen -r'
+alias sc='screen'
 
 ## git
 git config --global color.ui true

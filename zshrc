@@ -28,8 +28,9 @@ then
   ## my tools
   export IPERF_HOME=$HOME/bin/iperf
   export SUBLIME_HOE=$HOME/bin/sublime_text_3
-  export PATH=$IPERF_HOME/bin:$SUBLIME_HOE:$PATH
-
+  export LIBSVM_HOME=$HOME/bin/libsvm-3.17
+  export PATH=$IPERF_HOME/bin:$SUBLIME_HOE:$LIBSVM_HOME:$PATH
+  export CLASSPATH=$CLASSPATH:./:/u/yichao/bin/weka-3-6-11/weka.jar
 
 fi
 
@@ -80,7 +81,7 @@ alias sshnarus='ssh -p 9001 ychen@localhost'
 
 alias sshmesh41='ssh ut-mesh-d-41.csres.utexas.edu'
 ## other setup
-alias matlab='matlab -nodisplay -nodesktop'
+# alias matlab='matlab -nodisplay -nodesktop'
 alias hmatlab='/v/filer4b/v27q001/ut-wireless/Han/matlabR2008a/bin/matlab'
 
 alias df='df -h'

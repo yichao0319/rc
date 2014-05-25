@@ -83,6 +83,7 @@ alias sshmesh41='ssh ut-mesh-d-41.csres.utexas.edu'
 ## other setup
 # alias matlab='matlab -nodisplay -nodesktop'
 alias hmatlab='/v/filer4b/v27q001/ut-wireless/Han/matlabR2008a/bin/matlab'
+alias matlabhouston='/usr/local/MATLAB/R2013b/bin/matlab'  ## matlab on houston.csres
 
 alias df='df -h'
 alias du='du -sh'

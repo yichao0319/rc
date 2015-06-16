@@ -30,12 +30,17 @@ then
   export SUBLIME_HOE=$HOME/bin/sublime_text_3
   export PATH=$IPERF_HOME/bin:$SUBLIME_HOE:$PATH
 
+elif echo $UNAME_ALL | grep "Darwin" > /dev/null
+then
+  ## Android SDK
+  export PATH=$PATH:/Users/yichao/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/yichao/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools
 
+  ## perlbrew
+  source ~/perl5/perlbrew/etc/bashrc
+
+  ## cmake
+  export PATH=$PATH:/Applications/CMake.app/Contents/bin
 fi
-
-
-## Android SDK
-export PATH=$PATH:/Users/yichao/SDK/android-sdk-macosx/tools:/Users/yichao/SDK/android-sdk-macosx/platform-tools
 
 
 ## servers
@@ -428,3 +433,6 @@ fi
 
 
 SA_LTE_PATH=/v/filer4b/v27q002/ut-wireless/yichao/SA/LTE;export SA_LTE_PATH; # ADDED BY INSTALLER - DO NOT EDIT OR DELETE THIS COMMENT - 4B5DD3DD-6BFD-8E04-0A89-FC887FEC754B 03AE7AE1-EACC-9EA4-80AE-0116E34F544A
+
+PERL_MB_OPT="--install_base \"/Users/yichao/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/Users/yichao/perl5"; export PERL_MM_OPT;

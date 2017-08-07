@@ -36,7 +36,7 @@ then
 elif echo $UNAME_ALL | grep "Darwin" > /dev/null
 then
   ## Android SDK
-  export PATH=$PATH:/Users/yichao/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/yichao/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools
+  export PATH=$PATH:/Users/yichao/Library/Android/sdk/platform-tools
 
   ## perlbrew
   source ~/perl5/perlbrew/etc/bashrc
@@ -47,46 +47,12 @@ fi
 
 
 ## servers
-alias ssh64astral='ssh astral-badger.cs.utexas.edu'
-alias ssh64boba='ssh boba-fettucini.cs.utexas.edu'
-alias ssh64clock='ssh clockwork-grapefruit.cs.utexas.edu'
-alias ssh64disco='ssh disco-bandit.cs.utexas.edu'
-alias ssh64emo='ssh emo-squid.cs.utexas.edu'
-alias ssh64goth='ssh goth-giant.cs.utexas.edu'
-alias ssh64hovering='ssh hovering-sombrero.cs.utexas.edu'
-alias ssh64lust='ssh lust.cs.utexas.edu'
-alias ssh64minolta='ssh minolta.cs.utexas.edu'
-alias ssh64nikon='ssh nikon.cs.utexas.edu'
-alias ssh64skeletal='ssh skeletal-sommelier.cs.utexas.edu'
-alias ssh64olympic='ssh olympic.csres'
-alias ssh64undead='ssh undead-elbow-macaroni.cs.utexas.edu'
-alias ssh64ver='ssh vermincelli.cs.utexas.edu'
-alias ssh64were='ssh weretaco.cs.utexas.edu'
-
-alias ssh32chastity='ssh chastity.cs.utexas.edu'
-alias ssh32diligence='ssh diligence.cs.utexas.edu'
-alias ssh32flintoff='ssh flintoff.cs.utexas.edu'
-alias ssh32patience='ssh patience.cs.utexas.edu'
-alias ssh32totenberg='ssh totenberg.cs.utexas.edu'
-
 alias sshuvanimor4='ssh uvanimor-4.cs.utexas.edu'
-
-alias sshzion='ssh zion.cs.utexas.edu'
-alias sshmaui='ssh maui.cs.utexas.edu'
 
 alias sshroadkill='ssh roadkill.cs.utexas.edu'
 alias sshstreetpizza='ssh streetpizza.cs.utexas.edu'
+alias sshhuihuang='ssh 128.83.158.18'
 
-alias sshatt='ssh guard.research.att.com'
-alias sshfemto='ssh 128.83.158.108'
-alias sshec2='ssh -i $HOME/license/ec2.trackingagent/TrackingAgent.pem ec2-user@ec2-72-44-45-130.compute-1.amazonaws.com'
-#alias sshnarus='ssh ychen@192.168.100.100'
-#alias sshnarus0='ssh ychen@172.31.7.160'
-#alias sshnarus2='ssh ychen@172.31.7.162'
-alias sshnarustunnel='ssh -L 9001:rainier.csres.utexas.edu:9001 yichao@zion.cs.utexas.edu'
-alias sshnarus='ssh -p 9001 ychen@localhost'
-
-alias sshmesh41='ssh ut-mesh-d-41.csres.utexas.edu'
 ## other setup
 # alias matlab='matlab -nodisplay -nodesktop'
 alias hmatlab='/v/filer4b/v27q001/ut-wireless/Han/matlabR2008a/bin/matlab'
